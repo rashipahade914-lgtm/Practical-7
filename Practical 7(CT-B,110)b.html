@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dialogue Boxes in Javascript</title>
+</head>
+<body>
+  <h2> Dialogue Boxes</h2>
+
+  <script>
+    // Alert Box
+    alert("Welcome to the  Dialogue Box ");
+
+    // Confirm Box
+    let confirmAction = confirm("Do you want to continue?");
+    if (confirmAction) 
+    {
+      document.write("You clicked OK!<br>");
+    } else 
+    {
+      document.write("You clicked Cancel!<br>");
+    }
+
+    // Prompt Box
+    let name = prompt("What is your name?");
+    document.write("Hello, " + name + "! Welcome to JavaScript.");
+  </script>
+
+</body>
+</html>
